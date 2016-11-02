@@ -1,0 +1,87 @@
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navBar {
+  margin-bottom: 0px;
+}
+
+#brand {
+  margin-top: 12px;
+  margin-right: 16px;
+  font-size: 18px;
+  /*color: #999999;*/
+  color: white;
+}
+
+.section {
+  height: 700px;
+}
+
+.containerHeader {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.containerBump {
+  margin-top: 75px;
+}
+
+#welcomeContainer {
+  background-color:#b3d9ff;
+  text-align: center;
+}
+
+#welcomeContainer h1 {
+  margin: 225px 0px 0px 0px;
+  /*border: 5px solid gray;*/
+}
+
+#aboutMeContainer {
+  background-color:#66b3ff;
+}
+
+#aboutMeContainer p {
+  margin-top: 50px;
+}
+
+#skillsContainer {
+  background-color:#b3d9ff;
+}
+
+.skillBar {
+  height: 20px;
+}
+
+#experienceContainer {
+  background-color:#66b3ff;
+}
+
+#workContainer {
+  background-color:#b3d9ff;
+}
+
+.screenshot {
+  text-align: center;
+}
+
+#contactContainer {
+  background-color:#66b3ff;
+}
+
+.social {
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#poweredBy {
+  color: white;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+#poweredByLink {
+  color: white;
+}

@@ -1,0 +1,321 @@
+<html>
+    <head>
+        <title>Kyle A. Hunter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--includes css libraries-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+        <!--includes local css file-->
+        <link rel="stylesheet" type="text/css" href="styles/styling.css">
+    
+        <!--includes jquery libraries-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--includes local script file-->
+        <!--<script src="scripts/scroll.js"></script>-->
+    </head>
+
+    <body>
+
+        <!--Nav bar-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="navBar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="https://www.linkedin.com/in/kylehunter09" target="_blank">Kyle Hunter's Portfolio</a>-->
+                    <p id="brand">Kyle Hunter's Portfolio</p>
+                </div>
+                
+                <!-- navbar links to sections -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#welcomeContainer">Welcome</a></li>
+                        <li><a href="#aboutMeContainer">About Me</a></li>
+                        <li><a href="#skillsContainer">Skills</a></li>
+                        <li><a href="#experienceContainer">Experience</a></li>
+                        <li><a href="#workContainer">Work</a></li>
+                        <!--<li><a href="#contactContainer">Contact</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <!--Welcome section-->
+            <div class="section container-fluid" id="welcomeContainer">
+                <h1>Welcome!<br><br><br><br>Thank you for your interest in my portfolio.</h1>
+            </div>
+            <!--end welcome section -->
+
+
+<!-- TODO: Need to figure out how to responsively update my image. If the browser window is adjusted to the proper width,
+my picture will enter the skills section -->
+            <!--About me section-->
+            <div class="section container-fluid" id="aboutMeContainer">
+                <h2 class="containerHeader">About Me</h2>
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <!--Currently working at BAE Systems, Inc. as a software engineer. My passions include full stack development,
+                            user interfaces, product design, and seamless user experience. I love how user interfaces assist people in
+                            achieving goals and have an interest in the design process.
+                            I developed this portfolio to expand my skillset and gather experience in web development.-->
+
+                        <p>I'm Kyle Hunter and I'm currently working at BAE Systems, Inc. as a software engineer.
+                            I'm eager to learn and am excited to pursue my passions.
+                            
+                            My passions include full stack
+                            development, user interfaces, product design, and seamless user experience. I enjoy how
+                            user interfaces assist people in achieving goals and have an interest in the design process.
+                            
+                            I developed this portfolio to expand my skillset and gather experience in web development.
+                         </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/kyleGraduation.jpg" class="img-responsive img-rounded" alt="Headshot of Kyle">
+                    </div>
+                </div>
+
+            </div>
+            <!--end about me section -->
+
+
+<!-- TODO: This section contains another column that can be used for additional skills. Need to figure out how to make background responsive
+for smaller devices before adding this or it will spill into the experience section-->
+            <!--Skills section-->
+            <div class="section container-fluid" id="skillsContainer">
+                <h1 class="containerHeader">Skills</h1>
+
+                <!--<div class="row" id="coltest1">
+                    <div class="col-sm-6" id="coltest2">-->
+                        <h3>Languages</h3>
+
+                        <p>C</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                80%
+                            </div>
+                        </div>
+
+                        <p>Ruby</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+
+                        <p>CSS/Sass</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+
+                        <p>Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+
+                        <p>JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                                55%
+                            </div>
+                        </div>
+
+                        <p>jQuery</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                50%
+                            </div>
+                        </div>
+                        
+                    <!--</div>-->
+
+<!--
+                    <div class="col-sm-6" id="coltest3">
+                        <h4>Code Management</h4>
+
+                        <p>Rational Synergy</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                75%
+                            </div>
+                        </div>
+
+                        <p>Git</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+                        <h4>Code Management</h4>
+
+                        <p>Rational Synergy</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                75%
+                            </div>
+                        </div>
+
+                        <p>Git</p>
+                        <div class="progress">
+                            <div class="progress-bar skillBar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                65%
+                            </div>
+                        </div>
+                    </div>
+-->
+                </div>
+            </div>
+             <!-- end skills section -->
+
+
+            <!-- Experience section-->
+            <div class="section container-fluid" id="experienceContainer">
+                <h1 class="containerHeader">Experience</h1>
+
+                <div class="col-sm-6">
+                    <h3>Professional</h3>
+
+                    BAE Systems, Inc. (2013-Present)
+                        <ul>
+                            <li>777 High Wall Suites (October 2016 - Present)</li>
+                            <ul>
+                                <li>Software Engineer</li>
+                            </ul>
+                            
+                            <li>777 Cabin Control Panel (June 2015 - October 2016)</li>
+                            <ul>
+                                <li>Systems Software Engineer</li>
+                            </ul>
+
+                            <li>B-2 Electronic Warfare Card (March 2014 - June 2015)</li>
+                            <ul>
+                                <li>Software Engineer</li>
+                            </ul>
+
+                            <li>Bombardier CSeries (June 2013 - March 2014)</li>
+                            <ul>
+                                <li>Systems Software Engineer</li>
+                            </ul>
+
+                            <li>Engineering Leadership Development Program (June 2013 - June 2016)</li>
+                        </ul>
+                    
+                </div>
+                <div class="col-sm-6">
+                    <h3>Education</h3>
+
+                    Master of Engineering in Systems Engineering
+                        <ul>
+                            <li>Cornell University (August 2016)</li>
+                            <li>Systems Engineering</li>
+                        </ul>
+
+                        <!--<br>-->
+
+                    Bachelor of Science in Electrical Engineering
+                        <ul>
+                            <li>Western New England University (2013)</li>
+                            <li>Electrical Engineering (Computer Concentration)</li>
+                        </ul>
+                    
+                </div>
+            </div>
+             <!--end experience section -->
+
+
+<!-- TODO: Need to figure out how to limit width of link area. Currently can click anywhere
+to the left or right of the image to open the link... should only be on the image itself.-->
+            <!--work section-->
+            <div class="section container-fluid" id="workContainer">
+                <h1 class="containerHeader">Work</h1>
+
+                <div class="containerBump">
+                    <a href="http://codepen.io/kyleh919/full/JRYxzg/" target="_blank">
+                        <img class="img-responsive img-rounded center-block" src="images/TeemuSelanneTributeShot.jpg" alt="Teemu Selanne tribute page screenshot">
+                        <p class="screenshot">Teemu Selanne Tribute Page</p>
+                    </a>
+                </div>
+            </div>
+             <!-- end work section -->
+
+<!-- TODO: Want to add a full section for contact info with:
+-icons to social media profiles
+-a direct message section to send me a message from the site to my email
+            Contact info section
+            <div class="section container-fluid" id="contactContainer">
+                <h1 class="containerHeader">Contact</h1>
+                
+                badges for social media connection
+                <div id="coltest1">
+                    <a href="https://www.linkedin.com/in/kylehunter09" target="_blank">
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://github.com/kyleh919" target="_blank">
+                        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="mailto:kyle.hunter91@gmail.com">
+                        <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+                text field input for name, email address, text, plus send button to my email
+                <div>
+
+                </div>
+-->
+            </div>
+             <!-- end contact info section -->
+        
+        </div>
+
+        <!-- bottom navbar for contact info -->
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                
+                <a href="https://www.linkedin.com/in/kylehunter09" target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x social" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://github.com/kyleh919" target="_blank">
+                    <i class="fa fa-github fa-2x social" aria-hidden="true"></i>
+                </a>
+
+                <a href="mailto:kyle.hunter91@gmail.com">
+                    <i class="fa fa-envelope fa-2x social" aria-hidden="true"></i>
+                </a>
+
+                <p class="pull-right" id="poweredBy">Created using <a href="http://getbootstrap.com" id="poweredByLink">Bootstrap</a>!</p>
+
+            </div>
+        </nav>
+        <!-- end bottom navbar -->
+
+    </body>
+</html>
