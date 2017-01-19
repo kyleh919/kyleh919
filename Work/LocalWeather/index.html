@@ -1,0 +1,47 @@
+<html>
+    <title>Local Weather</title>
+    <meta charset="utf-8">
+    
+    <!--external css libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
+
+    <!--custom css files-->
+    <link rel="stylesheet" href="styles/styling.css">
+
+    <!--external script libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--local scripts-->
+    <script src="scripts/script.js"></script>
+
+</html>
+
+<body>
+
+    <div id="box">
+        <div id="weatherBox">
+            <p id="title">Local Weather</p>
+
+            <p id="locFind" class="weather">Determining your nearest location...</p>
+
+            <p id="alert"><i>Reminder: In order to load the local weather you must allow your browser to use your current location.</i></p>
+
+            <div class="hide weather">
+                <div id="loc"></div>
+
+                <img id="condImg"></img>
+
+                <div id="cond"></div>
+
+                <div id="temp"></div>
+            
+                <button id="btn">Celsius</button>
+            </div>
+        </div>
+
+        <div id="credit">
+            Created by <a href="https://www.linkedin.com/in/kylehunter09" target="_blank">Kyle Hunter</a>
+        </div>
+    </div>
+</body>
